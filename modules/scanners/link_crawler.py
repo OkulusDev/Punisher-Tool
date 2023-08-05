@@ -75,17 +75,14 @@ def get_all_website_links(url):
 	return urls
 
 
-def crawl(url, max_urls=30):
+def crawl(url):
 	total_urls_visited = 0
 
 	total_urls_visited += 1
-	print(f"[*] Работа над {url}")
 	links = get_all_website_links(url)
 
 	for link in links:
-		if total_urls_visited > max_urls:
-			break
-		crawl(link, max_urls=max_urls)
+		crawl(link)
 
 
 def get_links(url, max_urls=30):

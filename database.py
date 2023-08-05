@@ -21,64 +21,22 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."""
-import os
-import requests
-import socket
+import sqlite3 as sql
 
 
-def get_ip(hostname):
-	try:
-		ip = socket.gethostbyname(hostname)
-		return ip
-	except Exception as e:
-		return f"[!] Произошла ошибка: {e}"
+class Database:
+	def __init__(self, filepath):
+		self.conn = sql.connect(filepath)
+		self.cur = self.conn.cursor()
 
+	def add_table(self):
+		self.cur.execute('CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY AUTOINCREMENT, admin_rights BOOL)')
+		self.conn.commit()
 
-def get_server_name(hostname, fua):
-	try:
-		headers = {
-			'User-Agent': fua
-		}
-		content = requests.get(hostname, headers=headers)
-		server = content.headers['Server']
+	def add_user(self, id, admin_rights=False):
+		user = self.cur.execute(f'SELECT * FROM users where id == {id}').fetchone()
 
-		return server
-	except Exception as e:
-		return "[!] Произошла ошибка: {e}"
-
-
-def get_info_about_ip(ipaddr, fua):
-	content = ''
-
-	try:
-		headers = {
-			'User-Agent': fua
-		}
-		info_data = requests.get(f'https://ipinfo.io/{ipaddr}/json', headers=headers).json()
-	except Exception as ex:
-		content = f'Ошибка: {ex}'
-		print(content)
-		return content
-
-	whois_info = os.popen(f'whois {ipaddr}').read().strip()
-
-	print(f'IP: {info_data.get("ip")}')
-	print(f'Город: {info_data.get("city")}')
-	print(f'Регион: {info_data.get("region")}')
-	print(f'Страна: {info_data.get("country")}')
-	print(f'Имя хоста: {info_data.get("hostname")}')
-	print(f'JSON данные: {info_data}')
-
-	content = f'''Информация об IP {ipaddr}
-IP: {info_data.get("ip")}
-Город: {info_data.get("city")}
-Регион: {info_data.get("region")}
-Страна: {info_data.get("country")}
-Имя хоста: {info_data.get("hostname")}
-JSON данные: {info_data}
-
-WhoIs:
-{whois_info}
-	'''
-
-	return content
+		if not user:
+			self.cur.execute(f'INSERT INTO users (id) VALUES ({id})')
+			self.cur.execute(f'INSERT INTO users (admin_rights) VALUES ({admin_rights})')
+		self.conn.commit()

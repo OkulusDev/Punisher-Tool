@@ -1,113 +1,546 @@
-2023-08-05 16:07:45,111 DEBUG Using selector: EpollSelector
-2023-08-05 16:07:45,125 DEBUG Make request: "sendMessage" with data: "{'chat_id': '5489665107', 'text': 'Многоуважаемый администратор! Бот @PunisherToolKit_bot запущен'}" and files "None"
-2023-08-05 16:07:45,736 DEBUG Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":13,"from":{"id":6546357622,"is_bot":true,"first_name":"Punisher Tool\\u26a1\\ufe0f","username":"PunisherToolKit_bot"},"chat":{"id":5489665107,"first_name":"\\ud835\\ude4a\\ud835\\ude60\\ud835\\ude6a\\ud835\\ude61\\ud835\\ude6a\\ud835\\ude68 \\ud835\\ude3f\\ud835\\ude5a\\ud835\\ude6b","last_name":"[\\ud835\\udd40\\ud835\\udd3d\\ud835\\udd38]","username":"OkulusDev","type":"private"},"date":1691226465,"text":"\\u041c\\u043d\\u043e\\u0433\\u043e\\u0443\\u0432\\u0430\\u0436\\u0430\\u0435\\u043c\\u044b\\u0439 \\u0430\\u0434\\u043c\\u0438\\u043d\\u0438\\u0441\\u0442\\u0440\\u0430\\u0442\\u043e\\u0440! \\u0411\\u043e\\u0442 @PunisherToolKit_bot \\u0437\\u0430\\u043f\\u0443\\u0449\\u0435\\u043d","entities":[{"offset":34,"length":20,"type":"mention"}]}}'"
-2023-08-05 16:07:45,739 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
-2023-08-05 16:07:45,873 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
-2023-08-05 16:07:46,169 ERROR Unclosed client session
-client_session: <aiohttp.client.ClientSession object at 0x7f433c03de50>
-2023-08-05 16:07:46,170 ERROR Unclosed connector
-connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f433ba19be0>, 1337.881140905)]']
-connector: <aiohttp.connector.TCPConnector object at 0x7f433bd931d0>
-2023-08-05 16:09:23,165 DEBUG Using selector: EpollSelector
-2023-08-05 16:09:23,178 DEBUG Make request: "sendMessage" with data: "{'chat_id': '5489665107', 'text': 'Многоуважаемый администратор! Бот @PunisherToolKit_bot запущен'}" and files "None"
-2023-08-05 16:09:23,826 DEBUG Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":14,"from":{"id":6546357622,"is_bot":true,"first_name":"Punisher Tool\\u26a1\\ufe0f","username":"PunisherToolKit_bot"},"chat":{"id":5489665107,"first_name":"\\ud835\\ude4a\\ud835\\ude60\\ud835\\ude6a\\ud835\\ude61\\ud835\\ude6a\\ud835\\ude68 \\ud835\\ude3f\\ud835\\ude5a\\ud835\\ude6b","last_name":"[\\ud835\\udd40\\ud835\\udd3d\\ud835\\udd38]","username":"OkulusDev","type":"private"},"date":1691226563,"text":"\\u041c\\u043d\\u043e\\u0433\\u043e\\u0443\\u0432\\u0430\\u0436\\u0430\\u0435\\u043c\\u044b\\u0439 \\u0430\\u0434\\u043c\\u0438\\u043d\\u0438\\u0441\\u0442\\u0440\\u0430\\u0442\\u043e\\u0440! \\u0411\\u043e\\u0442 @PunisherToolKit_bot \\u0437\\u0430\\u043f\\u0443\\u0449\\u0435\\u043d","entities":[{"offset":34,"length":20,"type":"mention"}]}}'"
-2023-08-05 16:09:23,828 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
-2023-08-05 16:09:23,993 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
-2023-08-05 16:09:24,278 ERROR Unclosed client session
-client_session: <aiohttp.client.ClientSession object at 0x7f41d9b3a750>
-2023-08-05 16:09:24,280 ERROR Unclosed connector
-connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f41d97c1be0>, 1436.000825009)]']
-connector: <aiohttp.connector.TCPConnector object at 0x7f41d990b110>
-2023-08-05 16:09:34,601 DEBUG Using selector: EpollSelector
-2023-08-05 16:09:34,616 DEBUG Make request: "sendMessage" with data: "{'chat_id': '5489665107', 'text': 'Многоуважаемый администратор! Бот @PunisherToolKit_bot запущен'}" and files "None"
-2023-08-05 16:09:35,227 DEBUG Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":15,"from":{"id":6546357622,"is_bot":true,"first_name":"Punisher Tool\\u26a1\\ufe0f","username":"PunisherToolKit_bot"},"chat":{"id":5489665107,"first_name":"\\ud835\\ude4a\\ud835\\ude60\\ud835\\ude6a\\ud835\\ude61\\ud835\\ude6a\\ud835\\ude68 \\ud835\\ude3f\\ud835\\ude5a\\ud835\\ude6b","last_name":"[\\ud835\\udd40\\ud835\\udd3d\\ud835\\udd38]","username":"OkulusDev","type":"private"},"date":1691226575,"text":"\\u041c\\u043d\\u043e\\u0433\\u043e\\u0443\\u0432\\u0430\\u0436\\u0430\\u0435\\u043c\\u044b\\u0439 \\u0430\\u0434\\u043c\\u0438\\u043d\\u0438\\u0441\\u0442\\u0440\\u0430\\u0442\\u043e\\u0440! \\u0411\\u043e\\u0442 @PunisherToolKit_bot \\u0437\\u0430\\u043f\\u0443\\u0449\\u0435\\u043d","entities":[{"offset":34,"length":20,"type":"mention"}]}}'"
-2023-08-05 16:09:35,229 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
-2023-08-05 16:09:35,397 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
-2023-08-05 16:09:35,702 ERROR Unclosed client session
-client_session: <aiohttp.client.ClientSession object at 0x7f062babb3d0>
-2023-08-05 16:09:35,704 ERROR Unclosed connector
-connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f062b931be0>, 1447.404931928)]']
-connector: <aiohttp.connector.TCPConnector object at 0x7f062ba8f5d0>
-2023-08-05 16:09:53,357 DEBUG Using selector: EpollSelector
-2023-08-05 16:09:53,370 DEBUG Make request: "sendMessage" with data: "{'chat_id': '5489665107', 'text': 'Многоуважаемый администратор! Бот @PunisherToolKit_bot запущен'}" and files "None"
-2023-08-05 16:09:53,982 DEBUG Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":16,"from":{"id":6546357622,"is_bot":true,"first_name":"Punisher Tool\\u26a1\\ufe0f","username":"PunisherToolKit_bot"},"chat":{"id":5489665107,"first_name":"\\ud835\\ude4a\\ud835\\ude60\\ud835\\ude6a\\ud835\\ude61\\ud835\\ude6a\\ud835\\ude68 \\ud835\\ude3f\\ud835\\ude5a\\ud835\\ude6b","last_name":"[\\ud835\\udd40\\ud835\\udd3d\\ud835\\udd38]","username":"OkulusDev","type":"private"},"date":1691226593,"text":"\\u041c\\u043d\\u043e\\u0433\\u043e\\u0443\\u0432\\u0430\\u0436\\u0430\\u0435\\u043c\\u044b\\u0439 \\u0430\\u0434\\u043c\\u0438\\u043d\\u0438\\u0441\\u0442\\u0440\\u0430\\u0442\\u043e\\u0440! \\u0411\\u043e\\u0442 @PunisherToolKit_bot \\u0437\\u0430\\u043f\\u0443\\u0449\\u0435\\u043d","entities":[{"offset":34,"length":20,"type":"mention"}]}}'"
-2023-08-05 16:09:53,985 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
-2023-08-05 16:09:54,187 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
-2023-08-05 16:09:54,455 ERROR Unclosed client session
-client_session: <aiohttp.client.ClientSession object at 0x7feb462dbdd0>
-2023-08-05 16:09:54,457 ERROR Unclosed connector
-connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7feb45731be0>, 1466.194970352)]']
-connector: <aiohttp.connector.TCPConnector object at 0x7feb45cf4710>
-2023-08-05 16:11:08,096 DEBUG Using selector: EpollSelector
-2023-08-05 16:11:08,127 DEBUG Make request: "getMe" with data: "{}" and files "None"
-2023-08-05 16:11:08,702 DEBUG Response for getMe: [200] "'{"ok":true,"result":{"id":6546357622,"is_bot":true,"first_name":"Punisher Tool\\u26a1\\ufe0f","username":"PunisherToolKit_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
-2023-08-05 16:11:08,703 INFO Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
-2023-08-05 16:11:08,704 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
-2023-08-05 16:11:08,857 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message"]}}'"
-2023-08-05 16:11:08,858 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
-2023-08-05 16:11:09,031 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
-2023-08-05 16:11:09,032 WARNING Updates were skipped successfully.
-2023-08-05 16:11:09,034 WARNING Goodbye!
-2023-08-05 16:11:33,298 DEBUG Using selector: EpollSelector
-2023-08-05 16:11:33,302 DEBUG Make request: "getMe" with data: "{}" and files "None"
-2023-08-05 16:11:33,821 DEBUG Response for getMe: [200] "'{"ok":true,"result":{"id":6546357622,"is_bot":true,"first_name":"Punisher Tool\\u26a1\\ufe0f","username":"PunisherToolKit_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
-2023-08-05 16:11:33,822 INFO Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
-2023-08-05 16:11:33,823 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
-2023-08-05 16:11:33,976 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message"]}}'"
-2023-08-05 16:11:33,977 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
-2023-08-05 16:11:34,136 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
-2023-08-05 16:11:34,137 WARNING Updates were skipped successfully.
-2023-08-05 16:11:34,138 INFO Start polling.
-2023-08-05 16:11:34,139 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
-2023-08-05 16:11:34,299 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message"]}}'"
-2023-08-05 16:11:34,300 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:11:42,958 INFO Stop polling...
-2023-08-05 16:11:42,960 WARNING Goodbye!
-2023-08-05 16:12:05,260 DEBUG Using selector: EpollSelector
-2023-08-05 16:12:05,266 DEBUG Make request: "getMe" with data: "{}" and files "None"
-2023-08-05 16:12:05,938 DEBUG Response for getMe: [200] "'{"ok":true,"result":{"id":6546357622,"is_bot":true,"first_name":"Punisher Tool\\u26a1\\ufe0f","username":"PunisherToolKit_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
-2023-08-05 16:12:05,940 INFO Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
-2023-08-05 16:12:05,940 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
-2023-08-05 16:12:06,098 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message"]}}'"
-2023-08-05 16:12:06,099 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
-2023-08-05 16:12:06,259 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
-2023-08-05 16:12:06,260 WARNING Updates were skipped successfully.
-2023-08-05 16:12:06,260 INFO Start polling.
-2023-08-05 16:12:06,261 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
-2023-08-05 16:12:06,418 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message"]}}'"
-2023-08-05 16:12:06,419 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:12:10,074 INFO Stop polling...
-2023-08-05 16:12:10,077 WARNING Goodbye!
-2023-08-05 16:12:41,882 DEBUG Using selector: EpollSelector
-2023-08-05 16:12:41,886 DEBUG Make request: "getMe" with data: "{}" and files "None"
-2023-08-05 16:12:42,375 DEBUG Response for getMe: [200] "'{"ok":true,"result":{"id":6546357622,"is_bot":true,"first_name":"Punisher Tool\\u26a1\\ufe0f","username":"PunisherToolKit_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
-2023-08-05 16:12:42,376 INFO Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
-2023-08-05 16:12:42,377 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
-2023-08-05 16:12:42,522 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message"]}}'"
-2023-08-05 16:12:42,524 DEBUG Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
-2023-08-05 16:12:42,700 DEBUG Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
-2023-08-05 16:12:42,701 WARNING Updates were skipped successfully.
-2023-08-05 16:12:42,702 INFO Start polling.
-2023-08-05 16:12:42,702 DEBUG Make request: "getWebhookInfo" with data: "{}" and files "None"
-2023-08-05 16:12:42,843 DEBUG Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0,"allowed_updates":["message"]}}'"
-2023-08-05 16:12:42,845 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:13:03,011 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:13:03,115 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:13:23,341 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:13:23,443 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:13:43,689 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:13:43,792 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:14:03,929 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:14:04,031 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:14:24,210 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:14:24,313 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:14:44,528 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:14:44,630 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:15:04,836 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:15:04,938 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:15:25,093 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:15:25,196 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:15:45,391 DEBUG Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
-2023-08-05 16:15:45,494 DEBUG Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
-2023-08-05 16:16:01,459 INFO Stop polling...
-2023-08-05 16:16:01,461 WARNING Goodbye!
+[INFO] [2023-08-05 23:32:35,114] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:32:35,434] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:32:35,438] Start polling.
+
+[INFO] [2023-08-05 23:32:49,562] Stop polling...
+
+[WARNING] [2023-08-05 23:32:49,565] Goodbye!
+
+[INFO] [2023-08-05 23:33:23,438] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:33:23,755] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:33:23,761] Start polling.
+
+[INFO] [2023-08-05 23:37:18,631] Stop polling...
+
+[WARNING] [2023-08-05 23:37:18,633] Goodbye!
+
+[INFO] [2023-08-05 23:37:26,675] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:37:27,074] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:37:27,088] Start polling.
+
+[ERROR] [2023-08-05 23:37:29,350] Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'is_admin' is not defined")>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 82, in start_handler
+    if is_admin:
+       ^^^^^^^^
+NameError: name 'is_admin' is not defined
+[ERROR] [2023-08-05 23:37:33,693] Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'scanning' is not defined")>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 127, in start_scanning_sqlinj_handler
+    results = scanning(generate_useragent(), msg.text)
+              ^^^^^^^^
+NameError: name 'scanning' is not defined
+[INFO] [2023-08-05 23:37:57,355] Stop polling...
+
+[WARNING] [2023-08-05 23:37:57,362] Goodbye!
+
+[INFO] [2023-08-05 23:38:09,367] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:38:09,672] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:38:09,678] Start polling.
+
+[ERROR] [2023-08-05 23:38:14,671] Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities("Can't parse entities: unclosed start tag at byte offset 0")>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 131, in start_scanning_sqlinj_handler
+    await bot.send_message(msg.from_user.id, result, parse_mode='HTML')
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: unclosed start tag at byte offset 0
+[INFO] [2023-08-05 23:38:35,558] Stop polling...
+
+[WARNING] [2023-08-05 23:38:35,560] Goodbye!
+
+[INFO] [2023-08-05 23:38:51,141] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:38:51,435] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:38:51,439] Start polling.
+
+[INFO] [2023-08-05 23:39:55,127] Stop polling...
+
+[WARNING] [2023-08-05 23:39:55,129] Goodbye!
+
+[INFO] [2023-08-05 23:43:03,713] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:43:04,020] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:43:04,022] Start polling.
+
+[ERROR] [2023-08-05 23:43:06,243] Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'is_admin' is not defined")>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 88, in start_handler
+    if is_admin:
+       ^^^^^^^^
+NameError: name 'is_admin' is not defined
+[ERROR] [2023-08-05 23:43:08,465] Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("type object 'GetInfoAboutIP' has no attribute 'url'")>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 95, in get_info_ip_handler
+    await GetInfoAboutIP.url.set()
+          ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'GetInfoAboutIP' has no attribute 'url'
+[INFO] [2023-08-05 23:43:26,603] Stop polling...
+
+[WARNING] [2023-08-05 23:43:26,605] Goodbye!
+
+[INFO] [2023-08-05 23:43:35,114] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:43:35,431] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:43:35,436] Start polling.
+
+[ERROR] [2023-08-05 23:44:11,375] Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=MissingSchema("Invalid URL '35.173.69.207': No scheme supplied. Perhaps you meant https://35.173.69.207?")>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 106, in start_scanning_xss_handler
+    result = scan_xss(msg.text, generate_useragent())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/modules/scanners/xss.py", line 103, in scan_xss
+    forms = get_all_forms(url, fua)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/modules/scanners/xss.py", line 36, in get_all_forms
+    soup = bs(requests.get(url, headers=headers).content, "html.parser")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/requests/sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/requests/models.py", line 368, in prepare
+    self.prepare_url(url, params)
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/requests/models.py", line 439, in prepare_url
+    raise MissingSchema(
+requests.exceptions.MissingSchema: Invalid URL '35.173.69.207': No scheme supplied. Perhaps you meant https://35.173.69.207?
+[INFO] [2023-08-05 23:44:42,162] Stop polling...
+
+[WARNING] [2023-08-05 23:44:42,164] Goodbye!
+
+[INFO] [2023-08-05 23:44:50,545] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:44:50,910] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:44:50,913] Start polling.
+
+[INFO] [2023-08-05 23:45:32,799] Stop polling...
+
+[WARNING] [2023-08-05 23:45:32,802] Goodbye!
+
+[INFO] [2023-08-05 23:46:00,198] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:46:00,502] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:46:00,504] Start polling.
+
+[INFO] [2023-08-05 23:46:41,933] Stop polling...
+
+[WARNING] [2023-08-05 23:46:41,935] Goodbye!
+
+[INFO] [2023-08-05 23:51:44,843] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:51:45,194] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:51:45,196] Start polling.
+
+[ERROR] [2023-08-05 23:52:13,011] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'is_admin' is not defined")>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 93, in start_handler
+    if is_admin:
+       ^^^^^^^^
+NameError: name 'is_admin' is not defined
+[ERROR] [2023-08-05 23:52:43,613] Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities('Can\'t parse entities: unsupported start tag "img" at byte offset 1437')>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 113, in start_get_info_phone_handler
+    await bot.send_message(msg.from_user.id, f'{result}', parse_mode='html')
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: unsupported start tag "img" at byte offset 1437
+[INFO] [2023-08-05 23:53:51,754] Stop polling...
+
+[WARNING] [2023-08-05 23:53:51,756] Goodbye!
+
+[INFO] [2023-08-05 23:53:58,046] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:53:58,397] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:53:58,402] Start polling.
+
+[ERROR] [2023-08-05 23:54:07,200] Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=JSONDecodeError('Expecting value: line 1 column 1 (char 0)')>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 115, in start_get_info_phone_handler
+    result = get_info_phonenumber(msg.text, generate_useragent())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/modules/osint/phone.py", line 35, in get_info_phonenumber
+    info_data = requests.get(url, headers=headers).json()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[INFO] [2023-08-05 23:54:51,598] Stop polling...
+
+[WARNING] [2023-08-05 23:54:51,600] Goodbye!
+
+[INFO] [2023-08-05 23:55:00,390] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:55:00,717] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:55:00,719] Start polling.
+
+[INFO] [2023-08-05 23:55:38,226] Stop polling...
+
+[WARNING] [2023-08-05 23:55:38,228] Goodbye!
+
+[INFO] [2023-08-05 23:56:38,723] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:56:39,065] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:56:39,071] Start polling.
+
+[ERROR] [2023-08-05 23:56:50,194] Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=CantParseEntities('Can\'t parse entities: unsupported start tag "img" at byte offset 1437')>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 117, in start_get_info_phone_handler
+    await bot.send_message(msg.from_user.id, f'{result}', parse_mode='html')
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.CantParseEntities: Can't parse entities: unsupported start tag "img" at byte offset 1437
+[INFO] [2023-08-05 23:57:30,017] Stop polling...
+
+[WARNING] [2023-08-05 23:57:30,020] Goodbye!
+
+[INFO] [2023-08-05 23:57:40,330] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:57:40,613] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:57:40,616] Start polling.
+
+[ERROR] [2023-08-05 23:58:12,939] Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=KeyError('region')>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 115, in start_get_info_phone_handler
+    result = get_info_phonenumber(msg.text, generate_useragent())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/modules/osint/phone.py", line 42, in get_info_phonenumber
+    Регион: {info_data["region"]["name"]}
+             ~~~~~~~~~^^^^^^^^^^
+KeyError: 'region'
+[INFO] [2023-08-05 23:58:56,275] Stop polling...
+
+[WARNING] [2023-08-05 23:58:56,278] Goodbye!
+
+[INFO] [2023-08-05 23:59:05,142] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:59:05,560] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:59:05,566] Start polling.
+
+[INFO] [2023-08-05 23:59:15,281] Stop polling...
+
+[WARNING] [2023-08-05 23:59:15,284] Goodbye!
+
+[INFO] [2023-08-05 23:59:25,098] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-05 23:59:25,418] Updates were skipped successfully.
+
+[INFO] [2023-08-05 23:59:25,423] Start polling.
+
+[ERROR] [2023-08-06 00:05:42,606] Task exception was never retrieved
+future: <Task finished name='Task-86' coro=<Dispatcher._process_polling_updates() done, defined at /home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/venv/lib/python3.11/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/punisher.py", line 182, in start_scanning_sqlinj_handler
+    results = scanning(generate_useragent(), msg.text)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/modules/scanners/sql_injection.py", line 161, in scanning
+    content = scan_sql_injection(session, url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/modules/scanners/sql_injection.py", line 123, in scan_sql_injection
+    form_details = get_form_details(form)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/okulus/Tools/Punisher-Tool/modules/scanners/sql_injection.py", line 57, in get_form_details
+    method = form.attrsession.get("method", "get").lower()
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+[INFO] [2023-08-06 00:07:20,318] Stop polling...
+
+[WARNING] [2023-08-06 00:07:20,321] Goodbye!
+
+[INFO] [2023-08-06 00:07:46,375] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-06 00:07:46,661] Updates were skipped successfully.
+
+[INFO] [2023-08-06 00:07:46,662] Start polling.
+
+[INFO] [2023-08-06 00:12:15,867] Stop polling...
+
+[WARNING] [2023-08-06 00:12:15,869] Goodbye!
+
+[INFO] [2023-08-06 00:12:23,492] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-06 00:12:23,772] Updates were skipped successfully.
+
+[INFO] [2023-08-06 00:12:23,778] Start polling.
+
+[INFO] [2023-08-06 00:13:19,809] Stop polling...
+
+[WARNING] [2023-08-06 00:13:19,811] Goodbye!
+
+[INFO] [2023-08-06 00:13:28,141] Bot: Punisher Tool⚡️ [@PunisherToolKit_bot]
+
+[WARNING] [2023-08-06 00:13:28,547] Updates were skipped successfully.
+
+[INFO] [2023-08-06 00:13:28,549] Start polling.
+
+[INFO] [2023-08-06 00:15:05,948] Stop polling...
+
+[WARNING] [2023-08-06 00:15:05,950] Goodbye!
+
+[WARNING] [2023-08-06 00:15:28,255] Goodbye!
+

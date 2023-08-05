@@ -40,6 +40,7 @@ def get_all_forms(session, url):
 	
 	return soup.find_all("form")
 
+
 def get_form_details(form):
 	"""
 	Эта функция получает всю доступную информацию о форме
@@ -53,7 +54,10 @@ def get_form_details(form):
 		action = None
 	
 	# получаем метод формы (POST, GET, etc.)
-	method = form.attrsession.get("method", "get").lower()
+	try:
+		method = form.attrsession.get("method", "get").lower()
+	except Exception as e:
+		print(f'Error SQLINJ {form}: {e}')
 	
 	# получаем все детали ввода
 	inputs = []
@@ -158,3 +162,5 @@ def scan_sql_injection(session, url):
 def scanning(fua, url):
 	session = get_session(fua)
 	content = scan_sql_injection(session, url)
+
+	return content

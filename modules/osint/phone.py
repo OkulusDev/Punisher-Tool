@@ -32,9 +32,13 @@ def get_info_phonenumber(phonenumber, fua):
 		'User-Agent': fua
 	}
 
-	info_data = requests.get(url, headers=headers).json()
+	try:
+		info_data = requests.get(url, headers=headers).json()
+	except Exception as e:
+		return f'Ошибка: {e}'
 
-	content = f'''Номер телефона: {phonenumber}
+	try:
+		content = f'''Номер телефона: {phonenumber}
 Страна: {info_data["country"]["name"]}
 Регион: {info_data["region"]["name"]}
 Округ: {info_data["region"]["okrug"]}
@@ -42,4 +46,8 @@ def get_info_phonenumber(phonenumber, fua):
 Часть света: {info_data["country"]["location"]}
 
 Информация: {info_data}
-'''
+		'''
+	except KeyError:
+		content = f'{info_data}'
+
+	return content
